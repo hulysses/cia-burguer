@@ -1,0 +1,56 @@
+/*  Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/*  Geral */
+:root {
+  /* Fonts */
+  --font-calistoga: "Calistoga", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* Fonts size */
+  --font-size-xxs: 1rem; /* 16px */
+  --font-size-xs: 1.125rem; /* 18px */
+  --font-size-sm: 1.25rem; /* 20px */
+  --font-size-md: 1.5rem; /* 24px */
+  --font-size-lg: 2rem; /* 32px */
+  --font-size-xl: 2.75rem; /* 44px */
+  --font-size-xxl: 4.5rem; /* 72px */
+
+  /* Fonts colors */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #979797;
+  --color-text-highlight: #fe6a0f;
+
+  /* Backgrounds */
+  --color-bg-primary: #141414;
+  --color-bg-secondary: #1f1f1f;
+  --color-bg-card-hover: #2b2b2b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header */
+.header {
+  padding: 20px 0;
+}
